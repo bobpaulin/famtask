@@ -3,8 +3,9 @@ language: node_js
 node_js:
   - "7"
 install:
-    - "npm install -g cordova"
+  - "npm install -g cordova"
 script:
+  - cordova add platform ios
   - cordova build
 
 cache: npm
