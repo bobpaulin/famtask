@@ -5,7 +5,7 @@ node_js:
 install:
   - "npm install -g cordova"
 script:
-  - cordova add platform ios
+  - cordova platform add ios
   - cordova build
 
 cache: npm
